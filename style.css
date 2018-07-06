@@ -1,0 +1,15 @@
+body{
+    background: cadetblue;
+}
+
+.white{
+    color: white;
+}
+
+.loginborder{
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+    margin-top: 100px;
+    height: 400px;
+}
+
