@@ -2,14 +2,24 @@ body{
     background: cadetblue;
 }
 
-.white{
-    color: white;
+/* Barra de Navegação*/
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid red;
 }
 
-.loginborder{
-    border-radius: 25px;
-    background: rgb(255, 255, 255);
-    margin-top: 100px;
-    height: 400px;
+.img-logo{
+    
+    height: 60px;
+    width: 110px;
+    display: block;
+    background: url('logo.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+
 }
 
+.navbar-brand{
+    padding: 5px 15px;
+}
