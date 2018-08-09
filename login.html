@@ -24,6 +24,11 @@
     <nav class="navbar navbar-fixed-top  navbar-inverse navbar-transparente">
       <div class="container">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
           <a href="login.html" class="navbar-brand">
             <span class="img-logo"> Logo </span>
@@ -33,19 +38,139 @@
 
         <div class="collapse navbar-collapse" id="barra-navegacao">
             <ul class="nav navbar-nav navbar-right">
-              <li> <a href=""> Inscrever-se </a> </li>
+              <li> <a href="#signin_popup" data-toggle="modal" data-target="#signin_popup"> Inscreva-se </a> </li>
               <li class="divisor" role="separator">  </li>
-              <li> <a href=""> Entrar </a> </li>
-            </ul>
+              <li> <a href="#login_popup" data-toggle="modal" data-target="#login_popup"> Entrar </a> </li>
+            </ul>  
   
         </div>
-
-
       </div>
-
     </nav>
 
     <!--  Ending Navbar-->
+    <!-- slide show -->
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 col-md--centered teste" >
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
+         <!-- data-interval -->
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+           </ol>            
+          <!-- Wrapper for slides -->
+           <div class="carousel-inner">
+            <div class="item active">
+              <img src="books.jpg">
+              <div class="carousel-caption">
+                <span style="color:azure"> Teste</span>
+
+              </div>
+             </div>
+                      
+            <div class="item">
+               <img src="books.jpg">
+            </div>
+                      
+            <div class="item">
+              <img src="books.jpg">
+             </div>
+                          
+            </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next"> </a>                     
+          </div>
+        </div>  
+     </div>
+     <!-- Fim do slide show -->
+
+    
+    <!-- Popup de login usando modal window-->
+    <form class="modal fade" id="login_popup">
+      <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+              <!-- Cabeçalho -->
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" href="login.html"> 
+                      <span> &times; </span>
+                  </button>
+                  <h4 class="modal-tittle" > Efetuar Login</h4>
+              </div>
+
+              <!-- Cabeçalho -->
+              <div class="modal-body">
+                  <div class="form-group">
+                      <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                  </div>
+
+                  <div class="form-group">
+                          <input type="password" class="form-control" id="senha" placeholder="Senha">
+                  </div>
+              </div>
+
+              <!-- Rodapé -->
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal"> 
+                      Cancelar        
+                  </button>
+                      
+                  <button type="submit" class="btn btn-primary"> 
+                      Logar        
+                  </button>
+              </div>
+          </div>
+      </div>
+  </form>
+
+  <!-- Fim Popup de login usando modal window-->
+
+  <form class="modal fade" id="signin_popup">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" href="login.html"> 
+                <span> &times; </span>
+            </button>
+            <h4 class="modal-tittle" > Cadastro</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="form-group">
+            <input type="text" class="form-control" id="username" placeholder="username">
+          </div>
+
+          <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+          </div>
+
+          <div class="form-group">
+              <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+          </div>
+
+          <div class="form-group">
+              <input type="password" class="form-control" id="password" placeholder="Confirme sua senha">
+          </div>
+
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal"> 
+                Cancelar        
+            </button>
+                
+            <button type="submit" class="btn btn-primary"> 
+                Inscreva-se       
+            </button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </form>
+
 
     
     
