@@ -1,0 +1,48 @@
+body{
+    background:#6495ED
+}
+
+/* Barra de Navegação*/
+nav.navbar-transparente{
+    /* Deixa a navbar opaca(transparencia)*/
+    padding: 15px 0px;
+    /* Ultimo parametro indica a opcaidde da bar*/
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Configuração da logo de barra de navegação */
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+
+.img-logo{
+    height: 60px;
+    width: 110px;
+    display: block;
+    background: url('logo.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+    
+}
+
+/*  Fim da Barra de Navegação */
+
+/* Carousel  CSS */
+
+.img-slide{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.item{
+    margin-left: 170px;
+    overflow:auto;
+}
+
+.carousel-caption{
+    margin-top:400px;
+}
+
+
