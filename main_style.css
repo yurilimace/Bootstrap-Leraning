@@ -38,11 +38,13 @@ nav.navbar-transparente{
 
 .item{
     margin-left: 170px;
-    overflow:auto;
 }
 
-.carousel-caption{
-    margin-top:400px;
+.teste{
+    text-align: center;
+    margin-left: 180px;
+    color: azure;
+
 }
 
 
