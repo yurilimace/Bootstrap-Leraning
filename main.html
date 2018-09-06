@@ -11,33 +11,49 @@
 
     </head>
     <body>
-        <!-- Main Nav Bar-->
-        <nav class="navbar navbar-fixed-side navbar-inverse navbar-transparente">
-            <div class="container">
-                <!--Header-->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collappsed">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <a href="main.html" class="navbar-brand">
-                        <span class="img-logo"> Logo </span>
-                    </a>
-                </div>
-                <!-- End of Header -->
-                <div class="collapse navbar-collapse" id="barra-navegacao">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li> <a> Home </a>  </li>
-                        <li class="divisor" role="separator"> </li>
-                        <li> <a> Sair </a>  </li>
-                        </ul>
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="sidebar">
+                    <!-- Inserindo a logo na sidebar clicavel-->
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a href="main.html" class="navbar-brand">
+                                <span class="img-logo"> Logo </span>
+                            </a>
+                        </div>
+                    </div>
+                    <h1 class="text-side"> Teste </h1>
+                    <h1 class="text-side"> Teste 2</h1>
                 </div>
             </div>
-        </nav>
-        <!-- End of Navbar-->
 
+            <div class="col-md-6">
+                <!-- Main Nav Bar-->
+                <nav class="navbar navbar-fixed-side navbar-inverse navbar-transparente">
+                    <div class="container">
+                        <!--Header-->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collappsed">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- End of Header -->
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li> <a style="color:#08285F">  Home </a>  </li>
+                                <li class="divisor" role="separator"> </li>
+                                <li> <a style="color:#08285F" > Sair </a>  </li>
+                            </ul> 
+                        </div>
+                    </div>
+                </nav>       <!-- End of Navbar-->
+            </div>
+        </div>
+
+
+        <!--Carousel (slide show)-->
         <div class="row">
             <div class="col-md-6 col-md-offset-4 col-md--centered ">
                 <div id= "myCarousel" class="carousel slide" data-ride="carousel" data-pause = "hover">
@@ -48,7 +64,7 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="item active">
-                            <span class="teste"> Ultimas aquisições </span>
+                            <span class="text-carousel"> Ultimas aquisições </span>
                             <br/>
                             <img class=" img-slide col-md-6" src="capa.jpg">
                             <img class=" img-slide col-md-6" src="capa.jpg">
@@ -81,7 +97,8 @@
                     <a class="right carousel-control" href="myCarousel" data-slide"prev"> </a>
                 </div>
             </div>
-        </div>        
+        </div>
+        <!--End Carousel (slide show)-->     
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->

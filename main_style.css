@@ -1,13 +1,14 @@
 body{
-    background:#6495ED
+    background:white;
 }
 
 /* Barra de Navegação*/
 nav.navbar-transparente{
     /* Deixa a navbar opaca(transparencia)*/
     padding: 15px 0px;
+    margin-left: -600px;
     /* Ultimo parametro indica a opcaidde da bar*/
-    background: rgba(0, 0, 0, 0.6);
+    background: rgb(255, 255, 255);
 }
 
 /* Configuração da logo de barra de navegação */
@@ -18,12 +19,17 @@ nav.navbar-transparente{
 
 .img-logo{
     height: 60px;
-    width: 110px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 11px;
     display: block;
     background: url('logo.svg') no-repeat;
-    background-size: contain;
     color: transparent;
     
+}
+
+a:link{
+    color:#08285F;
 }
 
 /*  Fim da Barra de Navegação */
@@ -40,11 +46,23 @@ nav.navbar-transparente{
     margin-left: 170px;
 }
 
-.teste{
+.text-carousel{
     text-align: center;
     margin-left: 180px;
-    color: azure;
+    color:08285F;
 
 }
+/* Fim do Carousel CSS*/
 
+/* Sidebar */
+.sidebar {
+    background:#08285F;
+    width: 181px;
+    margin-top: 0px;
+    border: 1px solid red;
+  }
+
+  .text-side{
+      color:white;
+  }
 
