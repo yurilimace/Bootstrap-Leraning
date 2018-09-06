@@ -11,48 +11,35 @@
 
     </head>
     <body>
-        <div class="row">
-            <div class="col-md-6 ">
-                <div class="sidebar">
-                    <!-- Inserindo a logo na sidebar clicavel-->
-                    <div class="container">
-                        <div class="navbar-header">
-                            <a href="main.html" class="navbar-brand">
-                                <span class="img-logo"> Logo </span>
-                            </a>
-                        </div>
+         <!-- Main Nav Bar-->
+         <nav class=" navbar-fixed-side navbar-inverse navbar-transparente">
+                <div class="container">
+                    <!--Header-->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collappsed">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="login.html" class="navbar-brand">
+                            <span class="img-logo"> Logo </span>
+                        </a>
+
                     </div>
-                    <h1 class="text-side"> Teste </h1>
-                    <h1 class="text-side"> Teste 2</h1>
+                    <!-- End of Header -->
+                    <div class="collapse navbar-collapse" id="barra-navegacao">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li> <a>  Home </a>  </li>
+                            <li class="divisor" role="separator"> </li>
+                            <li> <a> Coleção </a>  </li>
+                            <li class="divisor" role="separator"> </li>
+                            <li> <a> Leitura </a>  </li>
+                            <li class="divisor" role="separator"> </li>
+                            <li> <a> Sair </a>  </li>
+                        </ul> 
+                    </div>
                 </div>
-            </div>
-
-            <div class="col-md-6">
-                <!-- Main Nav Bar-->
-                <nav class="navbar navbar-fixed-side navbar-inverse navbar-transparente">
-                    <div class="container">
-                        <!--Header-->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collappsed">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <!-- End of Header -->
-                        <div class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li> <a style="color:#08285F">  Home </a>  </li>
-                                <li class="divisor" role="separator"> </li>
-                                <li> <a style="color:#08285F" > Sair </a>  </li>
-                            </ul> 
-                        </div>
-                    </div>
-                </nav>       <!-- End of Navbar-->
-            </div>
-        </div>
-
-
+            </nav>       <!-- End of Navbar-->       
         <!--Carousel (slide show)-->
         <div class="row">
             <div class="col-md-6 col-md-offset-4 col-md--centered ">
