@@ -1,0 +1,94 @@
+body{
+    background:white
+}
+
+/* Barra de Navegação*/
+nav.navbar-transparente{
+    /* Deixa a navbar opaca(transparencia)*/
+    min-width: 1000px;
+    padding: 15px 0px;
+    margin-top: 0px;
+    margin-left: -15px;
+    position: relative;
+    /* Ultimo parametro indica a opcaidde da bar*/
+    background: rgba(21,55, 109, 0.8);
+}
+
+/* Configuração da logo de barra de navegação */
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+
+.img-logo{
+    height: 55px;
+    width: 55px;
+    display: block;
+    background: url('logo.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+    
+}
+
+#barra-navegacao{
+    margin-right: 200px;
+}
+
+/*  Fim da Barra de Navegação */
+
+/* Carousel  CSS */
+
+.img-slide{
+    width: 110px;
+    height: 110px;
+    padding: 10px;
+}
+
+.item{
+    margin-left: 110px;
+}
+
+.teste{
+    text-align: center;
+    margin-left: 100px;
+    color:#15376D;
+
+}
+
+.teste2{
+    margin-top:15px;
+}
+
+.carousel {
+    height: 200px;
+
+}
+
+
+
+/* Muda Todos os indicadores do slide no carousel */
+.carousel-indicators li {
+    margin-bottom:-30px;
+    background-color: #15376D;
+}
+
+/* Muda o indicador com estado ativo no carousel */
+.carousel-indicators .active {
+    margin-bottom:-30px;
+    background-color: #ffff99;
+}
+
+
+/* Side Bar*/
+#sidebar {
+    min-width: 170px;
+    max-width: 180px;
+    z-index: 1;
+    top: 0px;
+    display: block;
+    background: #7386D5;
+    color: #fff;
+  }
+  
+
+

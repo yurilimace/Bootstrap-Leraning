@@ -1,0 +1,86 @@
+body{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Barra de Navegação*/
+nav.navbar-transparente{
+    /* Deixa a navbar opaca(transparencia)*/
+    min-width: 1000px;
+    padding: 15px 0px;
+    margin-left: -5px;
+    position: relative;
+    /* Ultimo parametro indica a opcaidde da bar*/
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Configuração da logo de barra de navegação */
+.navbar-brand{
+    height: 53px;
+    width: 235px;
+    margin-top: 0px; 
+    border: solid 1px red;
+}
+
+
+.img-logo{
+    height: 40px;
+    width: 60px;
+    margin-left: 60px;
+    margin-top: 2px; 
+    display: block;
+    background: url('logo.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+    
+}
+
+
+#barra-navegacao{
+    margin-right: 200px;
+}
+
+/*  Fim da Barra de Navegação */
+
+/* Carousel  CSS */
+
+.img-slide{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.item{
+    margin-left: 170px;
+}
+
+.text-carousel{
+    text-align: center;
+    margin-left: 180px;
+    color:08285F;
+
+}
+/* Fim do Carousel CSS*/
+
+/* Sidebar */
+#sidebar {
+    min-width: 200px;
+    max-width: 250px;
+    z-index: 1;
+    top: 0px;
+    display: block;
+    background:rgba(21,55,109,0.8);
+    color: #fff;
+  }
+
+  .text-side{
+      color:white;
+  }
+
+  .divisor{
+      width: 233px;
+      margin-top: -2px;
+      margin-left: -15px;
+    }
+
+  
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Main Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link  href="sidebar-style.css"  rel="stylesheet"/>
+
+    </head>
+    <body>
+        <!-- Main Nav Bar-->
+        <div class="row">
+            <div class="col-md-6" id="sidebar">
+                <a href="main.html" class="navbar-brand">
+                    <span class="img-logo"> Logo </span>
+                </a>
+            </div>
+
+            <div class="col-md-6">
+                    <nav class="navbar-fixed-side navbar-inverse navbar-transparente">
+                            <div class="container">
+                                <!--Header-->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collappsed">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <!-- End of Header -->
+                                <div class="collapse navbar-collapse" id="barra-navegacao">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li> <a> Home </a>  </li>
+                                        <li class="divisor" role="separator"> </li>
+                                        <li> <a> Minha Colecão </a>  </li>
+                                        <li class="divisor" role="separator"> </li>
+                                        <li> <a> Sair </a>  </li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </nav>
+
+            </div>
+        </div>
+
+        <div class="row teste2">
+            <div class="col-md-6 col-md-offset-3 ">
+                <div id= "myCarousel" class="carousel slide" data-ride="carousel" data-pause = "hover">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <span class="teste"> Ultimas aquisições </span>
+                            <br/>
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <br/>
+                            <br/>
+                        </div>
+                        <div class="item">
+                            <span class="teste"> Pilha de leitura </span>
+                            <br/>
+                            <img class="img-slide" src="capa.jpg">
+                        </div>
+
+                        <div class="item">
+                            <span class="teste"> Teste </span>
+                            <br/>
+                            <img class="img-slide" src="capa.jpg">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="myCarousel" data-slide"prev"> </a>
+                    <a class="right carousel-control" href="myCarousel" data-slide"prev"> </a>
+                </div>
+            </div>
+        </div>        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
