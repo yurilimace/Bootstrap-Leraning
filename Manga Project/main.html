@@ -10,7 +10,7 @@
         <link  href="main_style.css"  rel="stylesheet"/>
 
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#myNav" data-offset="50">
          <!-- Main Nav Bar-->
          <nav class=" navbar-fixed-side navbar-inverse navbar-transparente">
                 <div class="container">
@@ -65,7 +65,7 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <div class="text-align">
-                                <span class="text-carousel"> <h3 class="text-center"> Ultimas aquisições </h3> </span>
+                                <span class="text-carousel"> <h3 class="text-center carousel-tittle"> Ultimas aquisições </h3> </span>
                             </div>
                             <br/>
                             <img class=" img-slide col-md-6" src="capa.jpg">
@@ -76,7 +76,7 @@
                         </div>
                         <div class="item">
                             <div class="text-align">
-                                <span class="text-carousel"> <h3 class="text-center"> Ultimas aquisições </h3> </span>
+                                <span class="text-carousel"> <h3 class="text-center carousel-tittle"> Ultimas aquisições </h3> </span>
                             </div>
                             <br/>
                             <img class=" img-slide col-md-6" src="capa.jpg">
@@ -87,7 +87,7 @@
 
                         <div class="item">
                             <div class="text-align">
-                                s<span class="text-carousel"> <h3 class="text-center"> Ultimas aquisições </h3> </span>
+                                <span class="text-carousel"> <h3 class="text-center carousel-tittle"> Ultimas aquisições </h3> </span>
                             </div>                         <br/>
                             <img class=" img-slide col-md-6" src="capa.jpg">
                             <img class=" img-slide col-md-6" src="capa.jpg">
@@ -102,6 +102,54 @@
         </div>
         <!--End Carousel (slide show)-->     
         
+        <!-- Gallery -->
+        <div class="row margin-gallery">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                        <h3 class="tittle-align"> Coleção </h3>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel panel-body">
+                        <ul class="nav nav-tabs nav-justify">
+                            <li class="active"><a  data-toggle ="tab" href="#all"> Todos </a></li>
+                            <li><a data-toggle ="tab" href="#A"> A </a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="all" class="tab-pane fade in active img-panel-align">
+                                <div class="col-md-12">
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" > 
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >
+                                        <img class="img-panel col-md-6" src="capa.jpg" >       
+                                </div>
+                            </div>
+
+                            <div iv id="A" class="tab-pane fade">
+                                <img class="img-panel col-md-6" src="capa.jpg" >
+                                <img class="img-panel col-md-6" src="capa.jpg" >
+                                <img class="img-panel col-md-6" src="capa.jpg" >
+                                <img class="img-panel col-md-6" src="capa.jpg" >
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="bootstrap/js/bootstrap.min.js"></script>

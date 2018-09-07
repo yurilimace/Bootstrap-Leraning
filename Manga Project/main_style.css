@@ -3,10 +3,7 @@ body{
 }
 
 
-h3{
-    color: #15376D;
-    padding-right: 198px;
-}
+
 
 /* Barra de Navegação*/
 nav.navbar-transparente{
@@ -112,8 +109,38 @@ nav.navbar-transparente{
     margin-top: -17px;
 }
 
+
+.carousel-tittle{
+    color: #15376D;
+    padding-right: 198px;
+}
+
 /* Fim do Carousel CSS*/
 
 
   
+/* Gallery */
 
+
+/* Sobescreve a classe panel para poder colocaro scroll quando estourar a tela*/
+.tab-pane{
+    height:300px;
+    overflow-y:scroll;
+    width:100%;
+  }
+/* Define o espaçamento entre a galeria e o titulo do panel*/
+.img-panel-align{
+    margin-top:10px;
+}
+/* Define o tamanho da imagem dentro da galeria e o espaçamento*/
+.img-panel{
+    width: 160px;
+    height: 160px;
+    padding-top: 15px;
+}
+
+.tittle-align{
+    margin-left: 730px;
+}
+
+/* End of gallery CSS*/
