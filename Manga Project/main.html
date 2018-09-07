@@ -24,11 +24,21 @@
                         <a href="login.html" class="navbar-brand">
                             <span class="img-logo"> Logo </span>
                         </a>
-
                     </div>
                     <!-- End of Header -->
+                    <!-- Serch Bar-->
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button class="btn btn-default">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </form>
+                    <!--End of Serch Bar-->
+                    <!--Links close to logo-->
                     <div class="collapse navbar-collapse" id="barra-navegacao">
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav navbar-left">
                             <li> <a>  Home </a>  </li>
                             <li class="divisor" role="separator"> </li>
                             <li> <a> Coleção </a>  </li>
@@ -38,11 +48,14 @@
                             <li> <a> Sair </a>  </li>
                         </ul> 
                     </div>
+                    <!--End Links close to logo-->
                 </div>
-            </nav>       <!-- End of Navbar-->       
+            </nav>       
+            <!-- End of Navbar-->       
+        
         <!--Carousel (slide show)-->
-        <div class="row">
-            <div class="col-md-6 col-md-offset-4 col-md--centered ">
+        <div class="row margin-carousel">
+            <div class="col-md-6 col-md-offset-3 col-md--centered ">
                 <div id= "myCarousel" class="carousel slide" data-ride="carousel" data-pause = "hover">
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -51,33 +64,35 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="item active">
-                            <span class="text-carousel"> Ultimas aquisições </span>
-                            <br/>
-                            <img class=" img-slide col-md-6" src="capa.jpg">
-                            <img class=" img-slide col-md-6" src="capa.jpg">
-                            <img class=" img-slide col-md-6" src="capa.jpg">
-                    
-                            <div class="carousel-caption">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <hr/>
-                                         teste
-                                        <hr/>
-                                    </div>
-                                </div>
-
+                            <div class="text-align">
+                                <span class="text-carousel"> <h3 class="text-center"> Ultimas aquisições </h3> </span>
                             </div>
+                            <br/>
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+            
                         </div>
                         <div class="item">
-                            <span class="teste"> Pilha de leitura </span>
+                            <div class="text-align">
+                                <span class="text-carousel"> <h3 class="text-center"> Ultimas aquisições </h3> </span>
+                            </div>
                             <br/>
-                            <img class="img-slide" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
                         </div>
 
                         <div class="item">
-                            <span class="teste"> Teste </span>
-                            <br/>
-                            <img class="img-slide" src="capa.jpg">
+                            <div class="text-align">
+                                s<span class="text-carousel"> <h3 class="text-center"> Ultimas aquisições </h3> </span>
+                            </div>                         <br/>
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
+                            <img class=" img-slide col-md-6" src="capa.jpg">
                         </div>
                     </div>
                     <a class="left carousel-control" href="myCarousel" data-slide"prev"> </a>
