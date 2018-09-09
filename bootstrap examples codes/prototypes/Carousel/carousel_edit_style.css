@@ -1,0 +1,146 @@
+body .test{
+    height: 90vh;
+}
+
+
+
+
+/* Barra de Navegação*/
+nav.navbar-transparente{
+    /* Deixa a navbar opaca(transparencia)*/
+    min-width: 1000px;
+    padding: 15px 0px;
+    margin-left: -5px;
+    position: relative;
+    /* Ultimo parametro indica a opcaidde da bar*/
+    background: rgba(21,55,109,0.8);
+}
+
+/* Configuração da logo de barra de navegação */
+.navbar-brand{
+    height: 53px;
+    width: 61px;
+    margin-left: -100px;
+    margin-top: 0px; 
+    border: solid 1px red;
+}
+
+/* Formatação da Imagem do Logo contido na navagation bar*/
+.img-logo{
+    height: 60px;
+    width: 60px;
+    margin-left: -16px;
+    margin-top: -20px; 
+    display: block;
+    background: url('logo.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+    
+}
+
+/* Sobrescrita da classe navbar-left para colocar os links perto da logo*/
+.navbar-left{
+    margin-left:-10px;
+}
+
+/* Barra de Pesquisa*/
+.btn-default{
+    margin-left: -4px;
+    margin-top: -1px;
+    border-radius: 0px;
+}
+
+/* Conter todos os elementos da navbar dentro da navbar*/
+#barra-navegacao{
+    margin-right: -50px;
+}
+
+
+/*  Fim da Barra de Navegação */
+
+/* Carousel  CSS */
+
+/* Espaçemento do carousel na pagina html*/
+.margin-carousel{
+    margin-top: 20px;
+}
+
+/* Espaçamento das imagens contidas dentro do slide do carousel*/
+.img-slide{
+    width: 150px;
+    height: 150px;
+    margin-top:-30px;
+    margin-left: -8px;
+    padding: 10px;
+}
+
+/* Espaçamento lateral dos itens contidos em um slide do carousel*/
+.item{
+    margin-left: 170px;
+}
+
+/* Formata o carousel slide definindo seu tamanho e espaçamento*/
+.carousel{
+    width: 900px;
+    height: 250px;
+    margin-left: -70px;
+}
+
+
+/*  Formata cor e realiza espaçamento dos indicadores do carousel quando não estão no estado ativo  */
+.carousel-indicators li{
+    margin-bottom: -30px;
+}
+
+/*  Formata cor e realiza espaçamento dos indicadores do carousel quando estão no estado ativo */
+.carousel-indicators .active{
+    margin-bottom: -30px;
+    background-color:#15376D;
+}
+
+/* Formata o texto(alinhamento e cor)*/
+.text-carousel{
+    text-align: center;
+    margin-bottom: 1000px;
+    color:08285F;
+}
+/* Alinha o texto em cima das capas no carousel slide */
+.text-align{
+    margin-top: -17px;
+}
+
+
+.carousel-tittle{
+    color: #15376D;
+    padding-right: 198px;
+}
+
+/* Fim do Carousel CSS*/
+
+
+  
+/* Gallery */
+
+
+/* Sobescreve a classe panel para poder colocaro scroll quando estourar a tela*/
+.tab-pane{
+    height:300px;
+    overflow-y:scroll;
+    width:100%;
+  }
+/* Define o espaçamento entre a galeria e o titulo do panel*/
+.img-panel-align{
+    margin-top:10px;
+}
+/* Define o tamanho da imagem dentro da galeria e o espaçamento*/
+.img-panel{
+    width: 160px;
+    height: 160px;
+    padding-top: 15px;
+}
+
+.tittle-align{
+    margin-left: 730px;
+}
+
+/* End of gallery CSS*/
