@@ -1,5 +1,5 @@
 body{
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);  
 }
 
 
@@ -11,7 +11,6 @@ nav.navbar-transparente{
     min-width: 1000px;
     padding: 15px 0px;
     margin-left: -5px;
-    position: relative;
     /* Ultimo parametro indica a opcaidde da bar*/
     background: rgba(21,55,109,0.8);
 }
@@ -62,7 +61,7 @@ nav.navbar-transparente{
 
 /* Espaçemento do carousel na pagina html*/
 .margin-carousel{
-    margin-top: 20px;
+    margin-top: 180px;
 }
 
 /* Espaçamento das imagens contidas dentro do slide do carousel*/
@@ -121,6 +120,14 @@ nav.navbar-transparente{
   
 /* Gallery */
 
+.test{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 0px;
+}
+
+
 
 /* Sobescreve a classe panel para poder colocaro scroll quando estourar a tela*/
 .tab-pane{
@@ -134,8 +141,8 @@ nav.navbar-transparente{
 }
 /* Define o tamanho da imagem dentro da galeria e o espaçamento*/
 .img-panel{
-    width: 160px;
-    height: 160px;
+    width: 130px;
+    height: 150px;
     padding-top: 15px;
 }
 

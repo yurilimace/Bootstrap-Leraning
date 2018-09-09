@@ -10,9 +10,9 @@
         <link  href="main_style.css"  rel="stylesheet"/>
 
     </head>
-    <body data-spy="scroll" data-target="#myNav" data-offset="50">
+    <body>
          <!-- Main Nav Bar-->
-         <nav class=" navbar-fixed-side navbar-inverse navbar-transparente">
+         <nav class=" navbar-fixed-top navbar-inverse navbar-transparente">
                 <div class="container">
                     <!--Header-->
                     <div class="navbar-header">
@@ -41,7 +41,7 @@
                         <ul class="nav navbar-nav navbar-left">
                             <li> <a>  Home </a>  </li>
                             <li class="divisor" role="separator"> </li>
-                            <li> <a> Coleção </a>  </li>
+                            <li> <a href="#teste"> Coleção </a>  </li>
                             <li class="divisor" role="separator"> </li>
                             <li> <a> Leitura </a>  </li>
                             <li class="divisor" role="separator"> </li>
@@ -103,16 +103,19 @@
         <!--End Carousel (slide show)-->     
         
         <!-- Gallery -->
-        <div class="row margin-gallery">
-            <div class="panel panel-primary">
+        <div class="row test">
+            <div class="panel">
                 <div class="panel-heading">
                         <h3 class="tittle-align"> Coleção </h3>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel panel-body">
                         <ul class="nav nav-tabs nav-justify">
-                            <li class="active"><a  data-toggle ="tab" href="#all"> Todos </a></li>
+                            <li class="active"><a  id="teste" data-toggle ="tab" href="#all"> Todos </a></li>
                             <li><a data-toggle ="tab" href="#A"> A </a></li>
+                            <li><a data-toggle ="tab" href="#B"> B </a></li>
+                            <li><a data-toggle ="tab" href="#C"> C </a></li>
+                            <li><a data-toggle ="tab" href="#D"> D </a></li>
                         </ul>
 
                         <div class="tab-content">
@@ -141,6 +144,14 @@
                                 <img class="img-panel col-md-6" src="capa.jpg" >
                                 <img class="img-panel col-md-6" src="capa.jpg" >
                             </div>
+
+                            <div iv id="B" class="tab-pane fade">
+                                <img class="img-panel col-md-6" src="capa.jpg" >
+                                <img class="img-panel col-md-6" src="capa.jpg" >
+                                <img class="img-panel col-md-6" src="capa.jpg" >
+                                <img class="img-panel col-md-6" src="capa.jpg" >
+                            </div>
+                            
 
                         </div>
                     </div>
