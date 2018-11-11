@@ -4,11 +4,14 @@ var login = document.getElementById('email_add');
 var password = document.getElementById('senha');
 
 
-
 act_button.addEventListener('click', function () {
     firebase.auth().signInWithEmailAndPassword(login.value, password.value)
     .then(function(result){
         alert(login.value);
+        //carrega a proxima pagina do html nesse caso a home
+        window.location = 'main.html';
+        localStorage.setItem("display",login.value);
+
     })
     .catch(function(error) {
         var errorCode = error.code;
@@ -21,4 +24,5 @@ act_button.addEventListener('click', function () {
           console.log(error);
       });
 });
+
 

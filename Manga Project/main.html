@@ -8,6 +8,7 @@
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link  href="css/main_style.css"  rel="stylesheet"/>
+        <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
 
     </head>
     <body>
@@ -35,8 +36,11 @@
                             <span class="glyphicon glyphicon-search"></span>
                         </button>
                     </form>
-                    <!--End of Serch Bar-->
-                    <!--Links close to logo-->
+                    <div class="navbar-form navbar-right">
+                        <p id = "update"> User Name </p>
+                    </div>
+                    <!--End of Serch Bar--> 
+                    <!--Links closer to logo-->
                     <div class="collapse navbar-collapse" id="barra-navegacao">
                         <ul class="nav navbar-nav navbar-left">
                             <li> <a>  Home </a>  </li>
@@ -46,7 +50,7 @@
                             <li> <a> Leitura </a>  </li>
                             <li class="divisor" role="separator"> </li>
                             <li> <a> Sair </a>  </li>
-                        </ul> 
+                        </ul>
                     </div>
                     <!--End Links close to logo-->
                 </div>
@@ -134,7 +138,7 @@
         </div>
 
 
-        
+        <script language = "javascript" src="js/main.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="bootstrap/js/bootstrap.min.js"></script>
